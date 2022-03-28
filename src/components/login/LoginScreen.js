@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import BlackFoto from "../../assets/dc-black.jpg";
 
 const LoginScreen = () => {
 
@@ -17,7 +16,7 @@ const LoginScreen = () => {
         <div className=" flex justify-center items-center absolute h-20 w-20 rounded-[50%] bg-slate-700 -top-10 left-[120px]">
           <img
             className="object-cover w-full h-full rounded-[50%]"
-            src={BlackFoto}
+            src="https://res.cloudinary.com/dmn1muomz/image/upload/v1648504543/dc-blue_xgcsri.jpg"
             alt="black"
           />
         </div>
