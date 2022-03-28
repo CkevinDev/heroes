@@ -12,6 +12,7 @@ const DashboardRoutes = () => {
         <NavbarScreen/>
         <Routes>
             <Route path="/" element={<MarvelScreen />} />
+            <Route path="/heroes" element={<MarvelScreen />} />
             <Route path="hero/:heroId" element={<HeroScreen />} />
             <Route path="marvel" element={<MarvelScreen />} />
             <Route path="dc" element={<DcScreen />} />

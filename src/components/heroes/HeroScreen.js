@@ -19,13 +19,11 @@ const HeroScreen = () => {
     navigate(-1);
   }
 
-  const imgPath = `/assets/${heroe.id}.jpg`
-
   return (
     <div className="w-full flex justify-center ">
       <div className="m-6 gap-6 lg:gap-24 flex h-min">
         <div className="flex-1">
-          <img className="object-cover rounded-xl" src={imgPath} alt={heroe.superhero} />
+          <img className="object-cover rounded-xl" src={heroe.imgUrl} alt={heroe.superhero} />
         </div>
         <div className="text-gray-900 flex-1">
           <p className="text-xl lg:text-4xl text-gray-900 mt-4 font-bold">{heroe.superhero}</p>

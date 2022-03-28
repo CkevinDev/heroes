@@ -6,12 +6,15 @@ const HeroCard = ({
     publisher, 
     alter_ego,
     first_appearance,
-    characters
+    characters,
+    imgUrl
 }) => {
+
+
   return (
     <div className='ease-in-out duration-300 relative rounded-2xl flex justify-between bg-gray-900'>
       <div className=" w-1/2">
-         <img className="object-cover rounded-xl" src={`assets/${id}.jpg`} alt={superhero} />
+         <img className="object-cover rounded-xl" src={imgUrl} alt={superhero} />
       </div>
       <div className=" text-white w-1/2 text-center">
         <p className=" p-1 text-2xl md:text-lg font-bold xl:text-base">{superhero}</p>
